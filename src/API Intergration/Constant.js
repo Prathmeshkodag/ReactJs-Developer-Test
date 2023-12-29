@@ -1,0 +1,1 @@
+export const API='https://dev-api.conqt/api/product/Get-All-Producer'
