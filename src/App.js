@@ -1,11 +1,14 @@
 import React from "react";
-import Routes from "./Routes";
 import ProjectRoutes from "./Routes";
+import Intergation from "API Intergration/Intergation";
 
 function App() {
-  // return  <Routes />;
-  return <ProjectRoutes/>
-  
+  return (
+    <div>
+   <ProjectRoutes/>
+    {/* <Intergation/>  */}
+    </div>
+  )
 }
 
 export default App;
